@@ -1,3 +1,5 @@
+import asas from '/src/assets/img/ASAS.png'
+
 const About = () => {
     return (
         <div className="bg-hero h-[600px] bg-cover bg-no-repeat bg-center">
@@ -5,7 +7,7 @@ const About = () => {
                 <h1 className="lg:text-7xl md:text-5xl text-4xl">
                     Food App
                 </h1>
-                <img src="/src/assets/img/ASAS.png" className="lg:block hidden absolute lg:top-[191px] lg:right-[231px] lg:h-[22px] lg:w-[700px]" alt="" />
+                <img src={asas} className="lg:block hidden absolute lg:top-[191px] lg:right-[231px] lg:h-[22px] lg:w-[700px]" alt="" />
 
 
                 <p className="lg:w-[750px] md:text-5xl px-4 text-4xl text-center">

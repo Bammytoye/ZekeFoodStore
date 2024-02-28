@@ -1,4 +1,5 @@
 import { FaXTwitter, FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import zekeLogo from '/src/assets/img/zeke logo.png'
 
 
 const Footer = () => {
@@ -6,7 +7,7 @@ const Footer = () => {
         <div className="bg-gray-100 px-5 sm:px-8 md:px-16 lg:px-32">
             <div className="flex justify-between items-center">
                 <div className="">
-                    <img src="/src/assets/img/zeke logo.png" alt="Zeke Food App Logo" className="w-[30px] sm:w-[50px] md:w-[90px] pt-3" />
+                    <img src={zekeLogo} alt="Zeke Food App Logo" className="w-[30px] sm:w-[50px] md:w-[90px] pt-3" />
                 </div>
 
                 <div className="flex sm:space-x-2 md:space-x-12">

@@ -1,3 +1,4 @@
+import delicious from '/src/assets/img/delicious.png'
 
 const Delicious = () => {
     return (
@@ -10,7 +11,7 @@ const Delicious = () => {
                 </div>
                 
                 <div className="hidden md:block">
-                    <img src="/src/assets/img/delicious.png" alt="" className="w-[550px]" />
+                    <img src={delicious} alt="" className="w-[550px]" />
                 </div>
             </div>
         </div>

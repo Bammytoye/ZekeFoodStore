@@ -1,10 +1,11 @@
+import loginFood from '/src/assets/img/login food.png'
 
 const Account = () => {
     return (
         <div className="sm:px-24 md:px-32 px-5 h-[640px] bg-gray-100">
             <div className="flex items-center">
                 <div>
-                    <img src="/src/assets/img/login food.png" alt="" className="hidden md:block w-[550px]" />
+                    <img src={loginFood} alt="" className="hidden md:block w-[550px]" />
                 </div>
                 <div className="pt-32 flex flex-col space-y-3 sm:w-[450px]">
                     <h2 className="text-red-700 text-2xl sm:text-3xl font-bold">Create an account</h2>
