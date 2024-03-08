@@ -1,8 +1,8 @@
 
 const Download = () => {
     return (
-        <div className="bg-download h-[450px] bg-cover bg-no-repeat bg-center">
-            <div className="pt-32 text-white flex flex-col justify-center mx-auto items-center space-y-5">
+        <div className="lg:bg-download bg-gray-200 h-[450px] bg-cover bg-no-repeat bg-center mt-96 sm:mt-80 md:mt-96 lg:mt-56">
+            <div className="pt-32 lg:text-white flex flex-col justify-center mx-auto items-center space-y-5">
                 <h1 className="text-2xl sm:text-4xl ">
                     Download the app now
                 </h1>

@@ -12,10 +12,10 @@ export default withMT({
   theme: {
     extend: {
       screens: {
-        'xl':"1440px",
-        'lg':"976px",
-        'md':"768px",
-        'sm':"480px",
+        'xl':{'min': '1440px'},
+        'lg':{'min': '976px'},
+        'md':{'min': '768px'},
+        'sm':{'min': '480px'},
       },
       backgroundImage: {
         'hero': "url('/src/assets/img/firstLarge.png')",

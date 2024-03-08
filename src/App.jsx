@@ -12,6 +12,7 @@ function App() {
 
   return (
     <>
+    <div className='bg-gray-100'>
       <Navbar />
       <About />
       <Start />
@@ -20,6 +21,7 @@ function App() {
       <Payment />
       <Download /> 
       <Footer />
+    </div>
     </>
   )
 }
